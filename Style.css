@@ -1,0 +1,250 @@
+html, body {
+    overflow-x: hidden; /* Hides horizontal scrolling */
+  }
+  
+.first{
+    background-image: url("Images/drew-coffman-1872.jpg");
+    background-size: cover; /* Ensures the image covers the whole viewport */
+    background-repeat: no-repeat; /* Avoids tiling */
+    height: 90vh; /* Full viewport height */
+    width: 100;
+    margin: 0;
+}
+.navbar.scrolled {
+    background-color: #230F08; /* Change to your desired color */
+    color: white; /* Adjust text color if necessary */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+.fixed{
+    position: fixed;
+    top:0;
+    width: 100%;
+
+    }
+
+.text{
+    align-self: center;
+    position: relative;
+    top:20%;
+    color:bisque
+    
+}
+.buttons{
+    margin-top: 15px;
+}
+.firstbtn{
+    background-color:#8e7754;
+    margin-right: 2px;
+    color:bisque;
+}
+.firstbtn:hover{
+    background-color: bisque;
+    color:#8e7754;
+}
+.secondbtn{
+    border-color: bisque;
+    border-radius: 5px;
+    border-width: 3px;
+    margin-left: 2px;
+    color: bisque;
+}
+.secondbtn:hover{
+    background-color: bisque;
+    color: #8e7754;
+    
+}
+.second{
+    
+    justify-content: center;
+}
+.second img{
+ height: 500px;  
+}
+.third{
+    
+    justify-content: center;
+}
+.third img{
+ height: 500px;  
+}
+.fifth{
+    
+    justify-content: center;
+    background-color: #F6EEE3;
+}
+.fifth img{
+ height: 500px;  
+}
+.details{
+    padding-left: 50px;
+    padding-right: 50px;
+        font-family: "Alegreya";
+        
+}
+.detailst{
+    padding-left: 50px;
+    padding-right: 50px;
+        font-family: "Alegreya";
+        color: black;
+}
+.title{
+    font-size: 1.8rem;
+    padding-bottom: 25px;
+    color: #8e7754;
+}
+.texts{
+    font-size: 1.1rem;
+    line-height: 2em;
+    color: gray;
+}
+.soora{
+    border-radius: 50px;
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: #8e7754;
+}
+.icons{
+    font-family: "Alegreya";
+    color: gray;
+    font-size: 1rem;
+    padding-top: 15px;
+    
+
+}
+.onetext{
+    padding-bottom: 10px;
+}
+.description{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+.third{
+    background-color: #F6EEE3;
+    padding-top: 75px;
+}
+.separation{
+    height:75px;
+    background-color: white;
+}
+.separationg{
+    height:75px;
+    background-color: #F6EEE3;
+}
+.footer{
+    background-color: #4c3228;
+    padding-left: 35px;
+    padding-right: 35px;
+
+}
+.extra
+{
+    background-color: #4c3228;
+    padding-left: 35px;
+    padding-right: 35px;
+
+}
+.finaltext{
+    color:#F6EEE3;
+}
+.semifinal{
+    color:grey;
+}
+.one{
+    color:grey;
+}
+.try{
+    border-bottom:0.5px solid grey;
+    position: relative;
+    color:grey;
+
+}
+.icontext{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 15px;  
+    line-height: 45px;
+}
+
+   
+.icontextf
+{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 15px;  
+    line-height: 45px;
+}
+.end{
+    
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        padding-left: 8px;
+        
+    
+}
+.map{
+    background-image: url("Images/contact-details-map.png");
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.last{
+    background-color: #230F08;
+    
+}
+.icontextl{
+color:bisque;
+font-weight: lighter;
+}
+@media  (min-width: 576px)
+{
+
+.first
+{
+    background-position: center;
+}
+}
+    
+/* Change the dropdown menu background color */
+/* Change hamburger dropdown background color */
+
+  
+  /* Change text color for dropdown menu items */
+  #navbarNav .nav-link {
+    color: bisque; /* Set text to white */
+  }
+  
+  /* Change hover effect for menu items */
+  #navbarNav .nav-link:hover {
+    color: #ffd700; /* Set text to gold on hover */
+  }
+  
+  /* Customize the hamburger icon */
+  .navbar-toggler {
+    border: none; /* Remove the border around the icon */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* White hamburger lines */
+  }
+  
+  /* Add padding to menu items (optional for better spacing) */
+  #navbarNav .nav-item {
+    margin: 5px 0; /* Add spacing between items in the dropdown */
+  }
+  
+  /* Optional: Change active link color */
+  #navbarNav .nav-link.active {
+    color: #ffa500; /* Orange for the active menu item */
+  }
+  
+
+  
